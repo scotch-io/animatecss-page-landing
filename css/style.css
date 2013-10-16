@@ -12,7 +12,7 @@ body 							{ margin-top:40px; }
 #header 						{ margin-bottom:50px; }
 
 	/* logo */
-	#logo 						{ color:#FFF; font-family:'Offside';  margin-bottom:50px; margin-top:50px; }
+	#logo 						{ color:#FFF; font-family:'Offside'; font-size:80px; margin-bottom:50px; margin-top:50px; }
 	#logo span 					{ display:inline-block; }
 
 /* MAIN NAV
