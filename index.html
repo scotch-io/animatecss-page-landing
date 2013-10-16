@@ -27,44 +27,68 @@
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/icons/favicon-57.png">
 
 	<!-- SCROLLS -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- SPELLS -->
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script src="js/core.js"></script>
 
 </head>
 <body>
+<div class="container">
 
-	<header>
-		<div class="container">
-			<div class="row-fluid">
-
+	<div id="header" class="row">
+		<div id="logo">
+			<div id="danger">
+				<span class="ld">d</span>
+				<span class="la">a</span>
+				<span class="ln">n</span>
+				<span class="lg">g</span>
+				<span class="le">e</span>
+				<span class="lr">r</span>
+			</div>
+			<div id="zone">
+				<span class="lz">z</span>
+				<span class="lo">o</span>
+				<span class="ln">n</span>
+				<span class="le">e</span>
 			</div>
 		</div>
-	</header>
 
-	<div id="main">
-		<div class="container">
-			<div class="row-fluid">
-				cool stuff
-			</div>
+		<nav id="main-nav">
+			<ul class="list-unstyled list-inline">
+				<li><a href="#">Demo 1</a></li>
+				<li><a href="#">Demo 2</a></li>
+				<li><a href="#">Demo 3</a></li>
+				<li><a href="#">Demo 4</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="row">
+		<div id="sidebar" class="col-sm-4">
+			<nav id="sidebar-nav">
+				<ul class="nav nav-pills nav-stacked">
+					<li id="side-home"><a href="#">Home</a>
+					<li id="side-about"><a href="#">About</a>
+					<li id="side-work"><a href="#">Work</a>
+					<li id="side-contact"><a href="#">Contact</a>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="content" class="col-sm-8 text-center">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa harum molestiae esse reprehenderit asperiores laudantium neque ducimus aut voluptatum. Provident, perspiciatis, ipsam enim cupiditate totam suscipit obcaecati eligendi nihil iste?</p>
 		</div>
 	</div>
 
-	<footer>
-		<div class="container">
-			<div class="row-fluid">
-
-			</div>
-		</div>
-	</footer>
-
+</div>
 </body>
 </html>

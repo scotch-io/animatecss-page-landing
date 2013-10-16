@@ -1,6 +1,9 @@
 /* BASE
 ============================================================================= */
 
+#this 		{ animation-delay:5s; -moz-animation-delay:5s; -webkit-animation-delay:5s; }
+#other 		{ animation-delay:2s; -moz-animation-delay:2s; -webkit-animation-delay:2s; }
+
 /* HEADER
 ============================================================================= */
 
