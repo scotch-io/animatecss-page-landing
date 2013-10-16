@@ -1,14 +1,28 @@
 /* BASE
 ============================================================================= */
-
-#this 		{ animation-delay:5s; -moz-animation-delay:5s; -webkit-animation-delay:5s; }
-#other 		{ animation-delay:2s; -moz-animation-delay:2s; -webkit-animation-delay:2s; }
+@import url(http://fonts.googleapis.com/css?family=Offside);
+body 					{ background:#1F2E41; margin-top:40px; }
 
 /* HEADER
 ============================================================================= */
+#header 				{ margin-bottom:50px; }
 
-/* FOOTER
-============================================================================= */
+	/* logo */
+	#logo 				{ color:#FFF; font-family:'Offside'; font-size:80px; margin-bottom:50px; margin-top:50px; }
 
-/* MAIN
+/* MAIN NAV
 ============================================================================= */
+#main-nav 				{ margin-bottom:30px; }
+
+/* SIDEBAR NAV
+============================================================================= */
+#sidebar-nav 			{  }
+#sidebar-nav ul 		{ padding-left:0; }
+#sidebar-nav li 		{  }
+#sidebar-nav a 			{ display:block; margin-bottom:10px; }
+
+/* CONTENT
+============================================================================= */
+#content 				{ background:#FFF; padding:200px 20px;
+	border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+}
