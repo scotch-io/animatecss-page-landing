@@ -1,28 +1,63 @@
 /* BASE
 ============================================================================= */
 @import url(http://fonts.googleapis.com/css?family=Offside);
-body 					{ background:#1F2E41; margin-top:40px; }
+body 							{ background:url(../img/cloudcity.jpg); margin-top:40px; }
 
 /* HEADER
 ============================================================================= */
-#header 				{ margin-bottom:50px; }
+#header 						{ margin-bottom:50px; }
 
 	/* logo */
-	#logo 				{ color:#FFF; font-family:'Offside'; font-size:80px; margin-bottom:50px; margin-top:50px; }
+	#logo 						{ color:#FFF; font-family:'Offside'; font-size:80px; margin-bottom:50px; margin-top:50px; }
+	#logo span 					{ display:inline-block; }
 
 /* MAIN NAV
 ============================================================================= */
-#main-nav 				{ margin-bottom:30px; }
+#main-nav 						{ margin-bottom:30px; }
 
-/* SIDEBAR NAV
+/* SIDEBAR
 ============================================================================= */
-#sidebar-nav 			{  }
-#sidebar-nav ul 		{ padding-left:0; }
-#sidebar-nav li 		{  }
-#sidebar-nav a 			{ display:block; margin-bottom:10px; }
+#sidebar 						{  }
+
+#sidebar-nav 					{  }
+#sidebar-nav ul 				{ list-style:none; padding-left:0; }
+#sidebar-nav li 				{  }
+#sidebar-nav a 					{ background:#428bca; color:#FFF; display:block; margin-bottom:10px; padding:20px; text-transform:uppercase;
+	border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;
+}
+	#sidebar-nav a:hover 		{ background:#3276b1; text-decoration:none; }
 
 /* CONTENT
 ============================================================================= */
-#content 				{ background:#FFF; padding:200px 20px;
-	border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+#content 						{ background:#FFF; min-height:400px; padding:20px;
+	border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;
 }
+#content img 					{ border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; }
+
+/* ANIMATIONS
+============================================================================= */
+
+	/* logo */
+	.dd 						{ animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s; }
+	.da 						{ animation-delay:0.4s; -moz-animation-delay:0.4s; -webkit-animation-delay:0.4s; }
+	.dn 						{ animation-delay:0.6s; -moz-animation-delay:0.6s; -webkit-animation-delay:0.6s; }
+	.dg 						{ animation-delay:0.8s; -moz-animation-delay:0.8s; -webkit-animation-delay:0.8s; }
+	.de 						{ animation-delay:1s; -moz-animation-delay:1s; -webkit-animation-delay:1s; }
+	.dr 						{ animation-delay:1.2s; -moz-animation-delay:1.2s; -webkit-animation-delay:1.2s; }
+
+	.zz 						{ animation-delay:1.4s; -moz-animation-delay:1.4s; -webkit-animation-delay:1.4s; }
+	.zo 						{ animation-delay:1.6s; -moz-animation-delay:1.6s; -webkit-animation-delay:1.6s; }
+	.zn 						{ animation-delay:1.8s; -moz-animation-delay:1.8s; -webkit-animation-delay:1.8s; }
+	.ze 						{ animation-delay:2s; -moz-animation-delay:2s; -webkit-animation-delay:2s; }
+
+	/* demo buttons (main nav) */
+
+	/* sidebar */
+	#side-home 					{ animation-delay:0.2s; -moz-animation-delay:0.2s; -webkit-animation-delay:0.2s; }
+	#side-about 				{ animation-delay:0.6s; -moz-animation-delay:0.6s; -webkit-animation-delay:0.6s; }
+	#side-work 					{ animation-delay:1s; -moz-animation-delay:1s; -webkit-animation-delay:1s; }
+	#side-contact 				{ animation-delay:1.4s; -moz-animation-delay:1.4s; -webkit-animation-delay:1.4s; }
+
+	/* content */
+	#content 					{ animation-delay:2.5s; -moz-animation-delay:2.5s; -webkit-animation-delay:2.5s; }
+		#content img 			{ animation-delay:3s; -moz-animation-delay:3s; -webkit-animation-delay:3s; }
